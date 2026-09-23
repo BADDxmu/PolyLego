@@ -1,0 +1,10 @@
+##[ BUILDING BLOCK ]
+name	type	head_smart	head_bondor	head_deletor	end_smart	end_bondor	end_deletor
+jq1	1	ABSOLUTE	6	32
+c8diamine	2	ABSOLUTE	0	10	ABSOLUTE	9	28
+thal	1	ABSOLUTE	1	23
+
+##[ CONNECTION ]
+name	mol_A	mol_B	repeat	reaction_times
+part1	jq1	c8diamine	1	1
+part2	part1	thal	1	1

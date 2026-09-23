@@ -1,0 +1,12 @@
+[
+  {
+    "modifier_file": "NAG.sdf",
+    "mol_name": "NAG",
+    "attach_protein_resnum": 3287,
+    "attach_protein_atomname": "ND2",
+    "attach_protein_occurrence": 1,
+    "attach_modifier_idx": 0,
+    "deletor_modifier_idx": 14,
+    "deletor_protein_atomname": "HD21"
+  }
+]

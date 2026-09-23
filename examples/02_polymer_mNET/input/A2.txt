@@ -1,0 +1,8 @@
+## [ BUILDING BLOCK ]
+name	type	head_smart	head_bonders	head_deletions	end_smart	end_bonder	end_deletor
+A	2	[C][O][H] 	0	1,2	[C][O][H]	1	2
+
+## [ CONNECTION ]
+name	donate_mol	accept_mol	repeat	reaction_times
+A2	A	A	2	1
+

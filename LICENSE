@@ -1,0 +1,81 @@
+PolyLego — Software License Agreement
+Copyright (c) 2026 Zhi-Liang Ji, Juan Du, Shiyu Wang, Chenmeng Li. All rights reserved.
+
+PATENT NOTICE: patent applications covering methods implemented in this software
+are pending. No patent rights are granted by this license or by any use of the
+software (see Section 4).
+
+This software is NOT open source. It is provided only under the terms below.
+By downloading, installing or using the software you accept these terms.
+
+1. DEFINITIONS
+   "Software" means the PolyLego binary distribution (compiled Python extension
+   modules and accompanying wheel metadata), the example notebooks, scripts,
+   input files and documentation in this repository, and any part thereof.
+   "Licensor" means the copyright holder named above.
+   "You" means the individual or legal entity exercising rights under this license.
+
+2. LICENSE GRANTED
+   Licensor grants You a personal, non-exclusive, non-transferable,
+   non-sublicensable, revocable, royalty-free license to install and run the
+   Software on computers under Your control, solely for
+   (a) internal non-commercial academic research and teaching, and
+   (b) evaluating the Software,
+   for as long as You comply with this license.
+
+3. RESTRICTIONS
+   Except as expressly permitted by applicable law that cannot be waived by
+   agreement, You may NOT:
+   (a) use the Software for any commercial purpose, including research funded by
+       or performed for a commercial entity, contract research, or the provision
+       of services to third parties;
+   (b) copy, publish, distribute, sublicense, sell, rent, lend or otherwise make
+       the Software available to any third party, or host it as a service;
+   (c) reverse engineer, decompile, disassemble, de-obfuscate, recover source
+       code from, or otherwise attempt to derive the internal design, algorithms
+       or source code of the Software;
+   (d) modify, adapt, translate or create derivative works of the Software;
+   (e) remove or alter any copyright, patent or other proprietary notice;
+   (f) use the Software, or any output or measurement derived from it, to develop,
+       train or improve a competing product or service, or to file any patent
+       application.
+   Results obtained with the Software may be published in scientific literature,
+   provided the Software is cited as stated in the repository README.
+
+4. NO PATENT LICENSE
+   No licence, express or implied, is granted to any patent, patent application,
+   or other intellectual property right of Licensor, other than the limited
+   right to run the Software as set out in Section 2. Nothing in this license
+   grants You the right to practise any patented method other than by running
+   the Software itself for the permitted purposes.
+
+5. OWNERSHIP
+   The Software is licensed, not sold. Licensor retains all right, title and
+   interest in and to the Software, including all intellectual property rights.
+
+6. THIRD-PARTY MATERIAL
+   The Software calls third-party programs (for example GROMACS, AmberTools,
+   RDKit, OpenMM) that are distributed separately under their own licenses and
+   are not covered by this license. Protein structures used in the examples were
+   obtained from the RCSB Protein Data Bank and are subject to its terms of use.
+
+7. NO WARRANTY
+   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+   IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+   FITNESS FOR A PARTICULAR PURPOSE, ACCURACY OF RESULTS AND NONINFRINGEMENT.
+   The Software is a research tool and is not intended for any diagnostic,
+   therapeutic or other clinical use.
+
+8. LIMITATION OF LIABILITY
+   TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL LICENSOR
+   BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF
+   CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+   SOFTWARE OR THE USE OF OR OTHER DEALINGS IN THE SOFTWARE.
+
+9. TERMINATION
+   This license terminates automatically if You breach any of its terms. On
+   termination You must stop using the Software and delete all copies.
+
+10. COMMERCIAL AND OTHER USE
+    For commercial licences, collaborations, or any use outside Section 2,
+    contact: appo@xmu.edu.cn.

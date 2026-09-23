@@ -1,0 +1,22 @@
+[
+  {
+    "modifier_file": "ligand.sdf",
+    "mol_name": "LIG1",
+    "attach_protein_resnum": 297,
+    "attach_protein_atomname": "ND2",
+    "attach_protein_occurrence": 1,
+    "attach_modifier_idx": 0,
+    "deletor_modifier_idx": 99,
+    "deletor_protein_atomname": "HD21"
+  },
+  {
+    "modifier_file": "ligand.sdf",
+    "mol_name": "LIG2",
+    "attach_protein_resnum": 297,
+    "attach_protein_atomname": "ND2",
+    "attach_protein_occurrence": 2,
+    "attach_modifier_idx": 0,
+    "deletor_modifier_idx": 99,
+    "deletor_protein_atomname": "HD21"
+  }
+]

@@ -1,0 +1,9 @@
+## [ BUILDING BLOCK ]
+name	type	head_smart	head_bonders	head_deletions	end_smart	end_bonder	end_deletor
+ethandial	2	[C][O][H]	0	1,2	[C][O][H]	1	2
+pei	3	[O]=[C]-[O]-[H]	1	2,3
+
+## [ CONNECTION ]
+name	donate_mol	accept_mol	repeat	reaction_times
+A	ethandial	ethandial	3	1
+B	A	pei	1	1

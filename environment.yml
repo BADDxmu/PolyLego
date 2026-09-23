@@ -1,0 +1,40 @@
+# Conda environment for the PolyLego release wheel (Linux x86_64, Python 3.10).
+#
+#   conda env create -f environment.yml
+#   conda activate polylego
+#   pip install PolyLego-1.4.0-cp310-cp310-linux_x86_64.whl
+#
+# Versions are the combination the release was validated with.
+name: polylego
+channels:
+  - conda-forge
+  - nodefaults             # conda-forge only: same solution whatever the user's .condarc says
+dependencies:
+  - python=3.10
+  - numpy=1.26.4
+  - scipy=1.13.1
+  - pandas=2.1.4
+  - matplotlib=3.8.4
+  - networkx=3.1
+  - rdkit=2022.03.5
+  - openbabel=3.1.1
+  - biopython=1.83
+  - parmed=3.4.4
+  - openmm=8.1.1
+  - openff-toolkit=0.14.0
+  - openmmforcefields=0.12.0
+  - ambertools=22.0          # antechamber / parmchk2 / tleap / sqm (GAFF2, AM1-BCC)
+  - gromacs=2022             # gmx; any GROMACS >= 2021 on PATH also works
+  - tqdm
+  - pip
+  - setuptools=69.5.1        # openmmforcefields 0.12 imports pkg_resources (removed in newer setuptools)
+  # notebooks
+  - jupyterlab
+  - ipykernel
+  - nbconvert
+  - pip:
+      - deap==1.4.1
+      - pyswarm==0.6
+      - numpy-quaternion==2023.0.3
+      - py3Dmol==2.3.0
+      - dockq==2.1.3          # validation example: DockQ against a crystal structure
